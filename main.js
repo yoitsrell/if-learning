@@ -1,24 +1,37 @@
-function isItLong() {
+/******************************
+ * YOUR CODE GOES RIGHT HERE! *
+ ******************************/
 
+
+
+
+
+
+/**********************************
+ *      OUR CODE GOES BELOW.      *
+ * THIS IS FOR INTERNAL USE ONLY. *
+ * DO NOT ADD OR CHANGE ANYTHING! *
+ **********************************/
+
+if (typeof isItLong === 'undefined') {
+  isItLong = undefined;
 }
 
-function isItMedium() {
-
+if (typeof isItMedium === 'undefined') {
+  isItMedium = undefined;
 }
 
-function isItShort() {
-
+if (typeof isItShort === 'undefined') {
+  isItShort = undefined;
 }
 
-function howLongIsMyString() {
-
+if (typeof howLongIsMyString === 'undefined') {
+  howLongIsMyString = undefined;
 }
 
-function instructorHeight() {
-
+if (typeof instructorHeight === 'undefined') {
+  instructorHeight = undefined;
 }
-
-
 
 
 module.exports = {
