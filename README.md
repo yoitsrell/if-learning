@@ -17,7 +17,7 @@ Today you'll be branching to return different results based on the parameters pa
 
 * Write a function called `isItLong` that returns the string "That's a long string!" if the given string is longer than 20 characters. It should not return anything otherwise. (Explicitly, at least--every function returns `undefined` if you don't `return` a value!)
 * Write a function called `isItMedium` that returns the string "That's a regular sized string!" if the given string is between 10 and 20 characters, inclusive. It should not return anything otherwise. 
-* Write a function called `isItShort` that returns "That's a small string!" if the given string is shorter than 10 characters. It should not return anything otherwise. 
+* Write a function called `isItShort` that returns "That's a small string!" if the given string is shorter than 10 characters. Otherwise, it should return "That's not a small string!"
 * Write a function called `howLongIsMyString` that returns:
   * the string "That's a long string!" if the given string is longer than 20 characters
   * the string "That's a regular sized string!" if the given string is between 10 and 20 characters, inclusive

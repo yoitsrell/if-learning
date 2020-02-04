@@ -44,16 +44,17 @@ describe('isItMedium', () => {
 })
 
 describe('isItShort', () => {
-  it('returns undefined if given a string over 10 characters long.', () => {
-    expect(isItShort(`I'm 20 chars long...`)).toBe(undefined)
-  })
-
-  it(`returns undefined if given a string of exactly 10 characters`, () => {
-    expect(isItShort(`I'm Medium`)).toBe(undefined)
-  })
   
   it(`returns "That's a small string!" if given a string of fewer than 10 characters`, () => {
     expect(isItShort(`I'm Short`)).toBe(`That's a small string!`)
+  })
+  
+  it(`returns "That's not a small string!" if given a string over 10 characters long.`, () => {
+    expect(isItShort(`I'm 20 chars long...`)).toBe(`That's not a small string!`)
+  })
+
+  it(`returns "That's not a small string!" if given a string of exactly 10 characters`, () => {
+    expect(isItShort(`I'm Medium`)).toBe(`That's not a small string!`)
   })
 })
 
